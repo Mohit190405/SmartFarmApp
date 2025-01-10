@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Smart Farm App</string>
+    <string name="error_empty_water_amount">Please enter the water amount.</string>
+    <string name="error_invalid_water_amount">Please enter a valid number for the water amount.</string>
+    <string name="error_no_time_set">Please set the watering time.</string>
+    <string name="time_picker_title">Select Time</string>
+    <string name="info_time_set">Water time set to: %s</string>
+    <string name="info_time_cancelled">Time selection cancelled.</string>
+    <string name="info_cctv_not_ready">Sorry, CCTV Feed is not ready yet. It will be added in the next update.</string>
+    <string name="info_out_temp">This displays real-time Outside temperature data from your farm.</string>
+    <string name="info_room_temp">This displays real-time Room temperature data from your farm.</string>
+    <string name="info_out_humidity">This displays real-time Outside humidity data from your farm.</string>
+    <string name="info_room_humidity">This displays real-time Room humidity data from your farm.</string>
+    <string name="info_out_temp_progress">This progress bar represents the current Outside temperature level.</string>
+    <string name="info_out_humidity_progress">This progress bar represents the current Outside humidity level.</string>
+    <string name="info_room_temp_progress">This progress bar represents the current Room temperature level.</string>
+    <string name="info_room_humidity_progress">This progress bar represents the current Room humidity level.</string>
+    <string name="confirmation_title">Confirm Submission</string>
+    <string name="info_water_amount_time">Water Amount: %1$s, Watering Time: %2$s. Are you sure you want to submit?</string>
+    <string name="info_data_sent">Data has been sent successfully!</string>
+    <string name="change_confirmation_title">Change Data Confirmation</string>
+    <string name="info_change_data">Current Water Amount: %1$s, Current Time: %2$s. Do you want to change?</string>
+    <string name="data_submitted">Watering details submitted successfully!</string>
+    <string name="confirm_update_title">Confirm Update</string>
+    <string name="confirm_update_message">Previous water amount: %1$s\nPrevious watering time: %2$s\nNew water amount: %3$s\nNew watering time: %4$s\nAre you sure you want to change the details?</string>
+    <string name="confirm_new_set_message">Water amount: %1$s\nWatering time: %2$s\nAre you sure you want to set these details?</string>
+    <string name="confirm_set_message">Are you sure that you want to set water amount to %s and time to %s?</string>
+
+    <!-- New strings to be added -->
+    <string name="loading_submission">Submitting your data, please wait...</string>
+    <string name="error_submission_failed">Failed to submit the data. Please try again.</string>
+    <string name="error_fetch_data">Failed to fetch data. Please check your connection.</string>
+    <string name="error_firebase_operation">An error occurred during a Firebase operation. Please try again.</string>
+
+
+
+    <string name="info_camera_view">Live camera view for detecting plant diseases.</string>
+    <string name="detect_plant_message">Detecting plant disease...</string>
+    <string name="no_plant_visible">No plant visible. Please adjust your camera.</string>
+
+</resources>
